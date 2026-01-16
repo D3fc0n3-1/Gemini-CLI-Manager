@@ -1,30 +1,39 @@
-# Gemini CLI Extension Manager
+# Gemini CLI One-Click Setup 🚀
 
-A simple, menu-driven installer for the [Gemini CLI Extensions](https://github.com/gemini-cli-extensions) ecosystem. Designed to mirror the user experience of `kali-tweaks`.
+An all-in-one management utility for the **Google Gemini CLI** and its official extensions. This tool automates the installation of Node.js, the core CLI agent, and provides a TUI (Terminal User Interface) to manage extensions.
 
 ## 🛠 Features
-- **Centralized Management**: Install or update multiple extensions at once.
-- **Easy Cleanup**: Quickly remove extensions you no longer need.
-- **Official Source**: Pulls directly from the `gemini-cli-extensions` organization.
+- **One-Click Core Install**: Automatically handles NodeSource repos and NPM global installs.
+- **TUI Menu**: Uses `whiptail` for a clean, Kali-style interface.
+- **Extension Library**: Quick access to the most popular extensions from the `gemini-cli-extensions` organization.
 
-## 📦 Available Extensions
-| Option | Extension | Description |
-| :--- | :--- | :--- |
-| **Conductor** | `conductor` | Plan and implement software features autonomously. |
-| **Security** | `security` | Scans code changes and PRs for vulnerabilities. |
-| **Flutter** | `flutter` | Deep context and commands for Dart/Flutter dev. |
-| **Postgres** | `postgres` | Query and manage PostgreSQL databases via CLI. |
-| **BigQuery** | `bigquery-data-analytics` | Advanced data analytics and forecasting. |
-| **Cloud Run** | `cloud-run` | Deploy applications to GCP Cloud Run effortlessly. |
+## 📦 What's Included?
+| Extension | Purpose |
+| :--- | :--- |
+| **Workspace** | Chat with your Gmail, Calendar, and Google Docs. |
+| **Conductor** | High-level planning and code implementation agent. |
+| **Security** | Vulnerability scanning for your repos. |
+| **Postgres** | Natural language SQL querying. |
+| **Firebase** | Backend management and deployment expertise. |
 
-## 🚀 Getting Started
+## 🚀 Installation & Usage
 
-1. **Prerequisites**: Ensure you have the [Gemini CLI](https://geminicli.com) installed and authenticated.
-2. **Clone the repo**:
-   ```bash
-   git clone [https://github.com/D3fc0n3-1/gemini-cli-manager.git](https://github.com/D3fc0n3-1/gemini-cli-manager.git)
-   cd gemini-cli-manager
-3. **Run the installer**:
-   ```bash
-   chmod +x gemini-setup.sh
-   ./gemini-setup.sh
+### 1. Download the tool
+```bash
+git clone [https://github.com/D3fc0n3-1/gemini-cli-manager.git](https://github.com/D3fc0n3-1/gemini-cli-manager.git)
+cd gemini-cli-manager
+chmod +x gemini-setup.sh
+```
+
+### 2. Run the Manager
+```bash
+/gemini-setup.sh
+```
+Note: If you haven't installed the core CLI yet, select Option 1 first.
+
+### 3. Authenticate
+After installing the core, run:
+```bash
+gemini
+```
+Follow the browser prompt to log in with your Google account.
