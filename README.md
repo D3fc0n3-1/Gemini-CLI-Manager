@@ -24,3 +24,7 @@ A simple, menu-driven installer for the [Gemini CLI Extensions](https://github.c
    ```bash
    git clone [https://github.com/D3fc0n3-1/gemini-cli-manager.git](https://github.com/D3fc0n3-1/gemini-cli-manager.git)
    cd gemini-cli-manager
+3. **Run the installer**:
+   ```bash
+   chmod +x gemini-setup.sh
+   ./gemini-setup.sh
