@@ -20,7 +20,7 @@ An all-in-one management utility for the **Google Gemini CLI** and its official 
 
 ### 1. Download the tool
 ```bash
-git clone [https://github.com/D3fc0n3-1/gemini-cli-manager.git](https://github.com/D3fc0n3-1/gemini-cli-manager.git)
+git clone https://github.com/D3fc0n3-1/gemini-cli-manager.git
 cd gemini-cli-manager
 chmod +x gemini-setup.sh
 ```
