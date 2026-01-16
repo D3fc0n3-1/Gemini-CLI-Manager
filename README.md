@@ -22,5 +22,5 @@ A simple, menu-driven installer for the [Gemini CLI Extensions](https://github.c
 1. **Prerequisites**: Ensure you have the [Gemini CLI](https://geminicli.com) installed and authenticated.
 2. **Clone the repo**:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/gemini-cli-manager.git](https://github.com/YOUR_USERNAME/gemini-cli-manager.git)
+   git clone [https://github.com/D3fc0n3-1/gemini-cli-manager.git](https://github.com/D3fc0n3-1/gemini-cli-manager.git)
    cd gemini-cli-manager
